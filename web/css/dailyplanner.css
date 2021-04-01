@@ -1,0 +1,90 @@
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	background-repeat: no-repeat;
+	background-image: url("https://cookstorming.com/wp-content/uploads/2015/03/Fotolia_99776874_Subscription_Monthly_M.jpg");
+}
+
+h4 {
+	text-align: left;
+	font-size: 3.2rem;
+	font-style: oblique;
+	font-family: Lucida Handwriting; 
+	margin-bottom: 0;
+	margin-top: 1rem;
+}
+
+
+.name {
+	display: flex;
+	margin-left: 5rem;
+}
+
+.logout:hover {
+	color: #99ff00;
+	transition-duration: 0.5s;
+}
+
+.logout {
+	margin-left: 60.5rem;
+	padding-top: 3.6rem;
+	color: #fff;
+	font-family: Century Gothic;
+	cursor: pointer;
+	font-size: 0.95rem;
+	text-decoration: none;
+}
+
+.name img {
+	margin-top: 1.8rem;
+}
+
+.name a {
+	width: 60px;
+	height: 80px;
+	cursor: pointer;
+	color: #000;
+}
+
+.tabs-container {
+	font-family: Century Gothic;
+	display: flex;
+	background-color: rgba(173, 255, 51, 0.8);
+	margin: 0;
+	max-width: 85.4rem;
+}
+
+.not-tab-active button:hover {
+	background-color: #99ff00;
+	transition-duration: 0.5s;
+}
+
+.not-tab-active button {
+	background-color: rgba(173, 255, 51, 0.1);
+	border: 0;
+	padding: 0.5rem;
+	width: 10rem;
+	font-size: 1rem;
+	cursor: pointer;
+	color: #fff;
+}
+
+.tab-active {
+	margin-left: 5rem;
+	border: 0;
+	background-color: rgba(173, 255, 51, 0.1);
+	padding: 0.5rem;
+	width: 10rem;
+	font-size: 1rem;
+	cursor: pointer;
+	color: #fff;
+}
+
+.tab-active:hover {
+	background-color: #99ff00;
+	transition-duration: 0.5s;
+}

@@ -1,0 +1,206 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	background-repeat: no-repeat;
+	background-image: url("https://cookstorming.com/wp-content/uploads/2015/03/Fotolia_99776874_Subscription_Monthly_M.jpg");
+}
+
+h4 {
+	text-align: left;
+	font-size: 3.2rem;
+	font-style: oblique;
+	font-family: Lucida Handwriting; 
+	margin-bottom: 0;
+	margin-top: 1rem;
+}
+
+.name {
+	display: flex;
+	margin-left: 5rem;
+}
+
+.message p {
+	margin-left: 11.65rem;
+	margin-top: 1rem;
+	font-family: Century Gothic;
+	color: red;
+}
+
+.name a {
+	width: 60px;
+	height: 80px;
+	cursor: pointer;
+	color: #000;
+}
+
+.name img {
+	margin-top: 1.8rem;
+}
+
+
+.tabs-container {
+	font-family: Century Gothic;
+	display: flex;
+	background-color: rgba(173, 255, 51, 0.8);
+	margin: 0;
+	max-width: 85.4rem;
+}
+
+.tabs-container button {
+	background-color: rgba(173, 255, 51, 0.1);
+	border: 0;
+	padding: 0.5rem;
+	width: 10rem;
+	font-size: 1rem;
+	cursor: pointer;
+	color: #fff;
+}
+
+.tabs-container button:hover {
+	background-color: #99ff00;
+	transition-duration: 0.5s;
+}
+
+.active {
+	margin-left: 5rem;
+}
+
+.tag-a:hover {
+	color: #99ff00;
+	transition-duration: 0.5s;
+}
+
+.tag-a-1:hover {
+	color: #99ff00;
+	transition-duration: 0.5s;
+}
+
+.tag-a {
+	margin-left: 55rem;
+	color: #000;
+	padding-top: 3.6rem;
+	font-family: Century Gothic;
+	cursor: pointer;
+	font-size: 0.95rem;
+	text-decoration: none;
+}
+
+.top-content p {
+	padding-top: 2.5rem;
+	margin-bottom: 0;
+	color: rgb(221, 221, 221, 0.5);
+}
+
+.tag-a-1 {
+	color: #000;
+	padding-top: 3.6rem;
+	font-family: Century Gothic;
+	cursor: pointer;
+	font-size: 0.95rem;
+	text-decoration: none;
+	margin-left: 0.6rem;
+}
+
+.in-form p {
+	margin: 0;
+	text-align: center;
+	margin-bottom: 1.8rem;
+}
+
+.formulario {
+	background-color: rgba(173, 255, 51, 0.8);
+    width: 19rem;
+    margin-top: 4rem;
+    margin-left: 11.5rem;
+    padding: 2rem;
+    border-radius: 0.3rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    font-size: 1rem;
+	font-family: sans-serif;
+}
+
+.in-form {
+	margin-top: 1rem;
+	padding-top: 1rem;
+	padding-bottom: 1.5rem;
+	background-color: rgba(255, 255, 255, 0.5);
+	border-radius: 0.3rem;
+}
+
+.login {
+	font-size: 0.8rem;
+	margin-left: 1rem;
+}
+
+.cell--div label {
+	font-size: 0.7rem;
+}
+
+.in-form a {
+	font-size: 0.63rem;
+	margin-left: 1rem;
+	color: #000;
+	line-height: 1rem;
+}
+
+.in-form a:hover {
+	color: #7acc00;
+	transition-duration: 0.5s;
+	font-weight: bold;
+}
+
+input[type="submit"] {
+	border: 0;
+    background-color: #99ff00;
+    color: #fff;
+    width: 75%;
+    height: 4.5%;
+    border-radius: 0.12rem;
+    margin-bottom: 0.5rem;
+    margin-top: 1.9rem;
+    margin-left: 2rem;
+	font-size: 0.9rem;
+	line-height: 1.1rem;
+	cursor: pointer;
+}
+
+
+input[type="submit"]:hover {
+	background-color: #7acc00;
+	transition-duration: 0.5s;
+}
+
+.form--field {
+	font-size: 0.55rem;
+    margin-left: 1rem;
+	width: 13rem;
+	font-family: Century Gothic;
+    border: 0.03rem solid #ccc;
+    border-radius: 0.15rem;
+    padding-left: 0.3rem;
+    line-height: 1.1rem;
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+}
+
+.form--field:focus {
+	outline-color: rgb(153, 255, 0);
+}
+
+.form--check {
+    width: 0.6rem;
+    margin-left: 1rem;
+}
+
+label {
+	font-size: 0.5rem;
+}
+
+.cell--div {
+	display: table-cell;
+	vertical-align: middle;
+}

@@ -1,0 +1,56 @@
+* {
+	box-sizing: border-box;
+}
+
+.button {
+	margin-left: 5rem;
+	margin-top: 1rem;
+	background-color: #99ff00;
+	padding: 0.5rem;
+	border-radius: 0.2rem;
+	color: #fff;
+
+}
+
+.button:hover {
+	background-color: #7acc00;
+	color: #fff;
+	text-decoration: none;
+}
+
+.tablee {
+    width: 45%;
+    margin-left: 5rem;
+}
+
+.tab-active:hover {
+	background-color: #99ff00;
+	transition-duration: 0.5s;
+}
+
+.active {
+	background-color: #99ff00;
+}
+
+.edit {
+	color: #99ff00;
+}
+
+.edit:hover {
+	color: #7acc00;
+}
+
+.delete {
+	color: red;
+}
+
+.delete:hover {
+	color: #ba0b00;
+}
+
+.scroll_vertical {
+	height: 100%;
+	width: 100%;
+	overflow: auto;
+	padding: 8px;
+}

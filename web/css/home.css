@@ -1,0 +1,159 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	background-repeat: no-repeat;
+	background-image: url("https://cookstorming.com/wp-content/uploads/2015/03/Fotolia_99776874_Subscription_Monthly_M.jpg");
+}
+
+h4 {
+	text-align: left;
+	font-size: 3.2rem;
+	font-style: oblique;
+	font-family: Lucida Handwriting; 
+	margin-bottom: 0;
+	margin-top: 1rem;
+}
+
+.name {
+	display: flex;
+	margin-left: 5rem;
+}
+
+.name a {
+	width: 60px;
+	height: 80px;
+	cursor: pointer;
+	color: #000;
+}
+
+.tag-a:hover {
+	color: #99ff00;
+	transition-duration: 0.5s;
+}
+
+.tag-a-1:hover {
+	color: #99ff00;
+	transition-duration: 0.5s;
+}
+
+.top-content p {
+	padding-top: 2.5rem;
+	margin-bottom: 0;
+	color: rgb(221, 221, 221, 0.5);
+}
+
+.tag-a {
+	margin-left: 55rem;
+	color: #000;
+	padding-top: 3.6rem;
+	font-family: Century Gothic;
+	cursor: pointer;
+	font-size: 0.95rem;
+	text-decoration: none;
+}
+
+.tag-a-1 {
+	color: #000;
+	padding-top: 3.6rem;
+	font-family: Century Gothic;
+	cursor: pointer;
+	font-size: 0.95rem;
+	text-decoration: none;
+	margin-left: 0.6rem;
+}
+
+.name img {
+	margin-top: 1.8rem;
+}
+
+h2 {
+	font-size: 2.1rem;
+	font-family: Stencil;
+	margin-bottom: 1rem;
+}
+
+.bottom-content p {
+	font-family: Century Gothic;
+	margin-top: 0;
+	margin-bottom: 2rem;
+}
+
+.bottom-content a {
+	font-family: Century Gothic;
+	cursor: pointer;
+	font-size: 0.8rem;
+	color: #000;
+}
+
+.bottom-content a:hover {
+	color: #99ff00;
+	transition-duration: 0.2s;
+}
+
+.tabs-container {
+	font-family: Century Gothic;
+	display: flex;
+	background-color: rgba(173, 255, 51, 0.8);
+	margin: 0;
+	max-width: 85.4rem;
+}
+
+.not-tab-active button:hover {
+	background-color: #99ff00;
+	transition-duration: 0.5s;
+}
+
+.not-tab-active button {
+	background-color: rgba(173, 255, 51, 0.1);
+	border: 0;
+	padding: 0.5rem;
+	width: 10rem;
+	font-size: 1rem;
+	cursor: pointer;
+	color: #fff;
+}
+
+.tab-active {
+	margin-left: 5rem;
+	background-color: #99ff00;
+	border: 0;
+	padding: 0.5rem;
+	width: 10rem;
+	font-size: 1rem;
+	cursor: pointer;
+	color: #fff;
+}
+
+.bottom-content {
+	margin-left: 8rem;
+	margin-top: 5rem;
+	width: 50%;
+	height: 200px;
+}
+
+.bottom-content small {
+	margin-left: 3.8rem;
+	font-family: Century Gothic;
+}
+
+.bottom-content button:hover {
+	background-color: #7acc00;
+	transition-duration: 0.5s;
+}
+
+.bottom-content button {
+	margin-left: 5.5rem;
+	background-color: #99ff00;
+	border: 0;
+	margin-bottom: 0.4rem;
+	border-radius: 0.15rem;
+	padding: 0.5rem;
+	color: #fff;
+	width: 10rem;
+	font-size: 1rem;
+	cursor: pointer;
+}
+
